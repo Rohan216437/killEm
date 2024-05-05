@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Counter from './components/counter';
+import PlayGround from './components/PlayGround';
 
 function App() {
   const [playClicked, setPlayClicked] = useState(false);
@@ -10,7 +10,7 @@ function App() {
       <div>
         {!playClicked && (
           <div className='flex justify-center items-center h-screen w-screen'>
-            <Link to="/counter">
+            <Link to="/playground">
             <button onClick={() => setPlayClicked(true)}>
               Play
             </button>
@@ -19,7 +19,7 @@ function App() {
         )}
         {playClicked && (
           <Routes>
-            <Route path="/counter" element={<Counter />} />
+            <Route path="/playground" element={<PlayGround />} />
           </Routes>
         )}
       </div>
