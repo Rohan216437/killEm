@@ -44,19 +44,16 @@ const PlayGround = () => {
         <div>
             <button onClick={handleBackClick}>Back</button>
         </div>
-        <div className='flex justify-center items-center h-1/4'>
-            <div className='flex'>
-                <div className=''>
+        <div className='flex justify-between items-center h-1/4'>
+            <div></div>
+    <div className='flex items-center'>
+        <h2>{count}</h2>
+    </div>
+    <h2>Chances: 5</h2>
+</div>
 
-                </div>
-                <h2 className=''>
-                    {count}
-                </h2>
-                <h2 className=''>
-                    5
-                </h2>
-            </div>
-        </div>
+
+
         <div className='flex justify-center items-center h-3/4 relative'>
             <button style={buttonStyle} className="absolute w-20 h-20 bg-green-600" onClick={incrementCount}>
             Increment
