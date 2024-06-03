@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { IoMdArrowRoundBack } from "react-icons/io";
 
 const PlayGround = () => {
     const [count, setCount] = useState(0);
@@ -49,8 +50,8 @@ const PlayGround = () => {
 
     return (
         <div className='p-8 flex-col h-screen w-screen'>
-            <div>
-                <button onClick={handleBackClick}>Back</button>
+            <div className=''>
+                <button className='' onClick={handleBackClick}><IoMdArrowRoundBack /></button>
             </div>
             <div className='flex justify-between items-center h-1/4'>
                 <div className='w-20 h-1/4'></div>
