@@ -14,7 +14,7 @@ function App() {
             <div className="bg-sky-500 flex flex-col items-center">
               <img src={PlayCoverNoBG} alt="Cover PNG here"  className="w-full h-auto" style={{ backgroundColor: 'transparent' }}/>
               <Link to="/playground" className='mt-5'>
-                <button onClick={() => setPlayClicked(true)} className="bg-white hover:bg-sky-100 text-sky-500 font-bold py-6 px-10 rounded-full shadow-md hover:shadow-2xl transition duration-500">
+                <button onClick={() => setPlayClicked(true)} className=" bg-white hover:bg-sky-100 text-sky-500 font-bold py-6 px-10 rounded-full shadow-md hover:shadow-2xl transition duration-500">
                   Start Game
                 </button>
               </Link>
