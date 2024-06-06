@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import PlayGround from './components/PlayGround';
-import PlayCoverNoBG from './assets/PlayCoverPageMole.png';
+import PlayCoverNoBG from './assets/uploadMole.png';
 
 function App() {
   const [playClicked, setPlayClicked] = useState(false);
@@ -17,7 +17,9 @@ function App() {
                 <svg className='absolute bottom-0 left-1/2 transform -translate-x-1/2' width="100%" height="130" viewBox="0 0 500 100">
                   {/* <path id="curve" d="M 50,90 Q 250,10 450,90" fill="transparent"/> */}
                   <path id="curve" d="M 50,50 Q 230,140 450,50" fill="transparent"/>
-                  
+                  <text width="500" className='bubble-font'>
+                    
+                  </text>
                 </svg>
               </div>
               <Link to="/playground" className='mt-5'>
