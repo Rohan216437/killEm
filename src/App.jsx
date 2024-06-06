@@ -18,7 +18,9 @@ function App() {
                   {/* <path id="curve" d="M 50,90 Q 250,10 450,90" fill="transparent"/> */}
                   <path id="curve" d="M 50,50 Q 230,140 450,50" fill="transparent"/>
                   <text width="500" className='bubble-font'>
-                    
+                    <textPath xlinkHref="#curve" startOffset="50%" textAnchor="middle">
+                      Kill'Em
+                    </textPath>
                   </text>
                 </svg>
               </div>
