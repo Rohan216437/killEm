@@ -28,3 +28,7 @@ code {
   font-size: 8rem;
   font-weight: bold;
 }
+
+.bg-play-page {
+  @apply bg-play-page-bg bg-cover bg-center;
+}
