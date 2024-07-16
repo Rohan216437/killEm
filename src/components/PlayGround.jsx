@@ -3,10 +3,11 @@ import { useNavigate } from 'react-router-dom';
 import { IoMdArrowRoundBack } from "react-icons/io";
 import heartImage from '../assets/heartImage.png'
 
+
 const PlayGround = () => {
     const [count, setCount] = useState(0);
     const [buttonPosition, setButtonPosition] = useState({ top: 28, left: 47 });
-    const [chances, setChances] = useState(3);
+    const [chances, setChances] = useState(300);
     const [timerId, setTimerId] = useState(null);
     const [gameOver, setGameOver] = useState(false);
     const navigate = useNavigate();
@@ -50,7 +51,7 @@ const PlayGround = () => {
     };
 
     return (
-        <div className='p-8 flex-col h-screen w-screen'>
+        <div className='p-8 flex-col h-screen w-screen bg-play-page bg-zoomed bg-top-adjusted'>
             <div className='flex justify-between items-start h-1/4'>
                 <div className='w-20 h-1/4'>
                 <button className='text-4xl p-2' onClick={handleBackClick}><IoMdArrowRoundBack /></button>
@@ -63,7 +64,8 @@ const PlayGround = () => {
                 </div>
             </div>
 
-            <div className='flex justify-center items-center h-3/4 relative'>
+            <div className='flex justify-center items-center h-3/4 relative '>
+                  {/* <img src={PlayCoverNoBG} alt="Cover PNG here" className="w-full h-auto" style={{ backgroundColor: 'transparent' }}/> */}
                 {gameOver ? (
                     <h2  className='bubble-font'>Game Over</h2>
                 ) : (
