@@ -6,6 +6,12 @@ module.exports = {
       backgroundImage: {
         'play-page-bg': "url('./assets/playPageBG.jpg')",
       },
+      backgroundSize: {
+        'zoomed': '50%', 
+      },
+      backgroundPosition: {
+        'top-adjusted': 'center top -20%',
+      },
     },
   },
   plugins: [],
