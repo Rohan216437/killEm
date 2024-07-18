@@ -5,12 +5,13 @@ module.exports = {
     extend: {
       backgroundImage: {
         'play-page-bg': "url('./assets/playPageBG.jpg')",
+        'play-ground': "url('./assets/playPageBG.jpg')",
       },
       backgroundSize: {
-        'zoomed': '50%', 
+        'zoomed': '110%', 
       },
       backgroundPosition: {
-        'top-adjusted': 'center top -20%',
+        'top-adjusted': 'center top 100%',
       },
     },
   },
