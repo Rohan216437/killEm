@@ -7,12 +7,8 @@ Welcome to **KillEm**, a modern, fun, and engaging Whack-a-Mole game built using
 - [Demo](#demo)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Snapshots](#snapshots)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Demo
 
 Check out a live demo of the game [here](#).
@@ -49,17 +45,6 @@ To run this project locally, follow these steps:
 
 The game should now be running on `http://localhost:3000`.
 
-## Usage
-
-- **Main Page**: Click on the "Play" button to start the game.
-- **Game Page**:
-  - The mole can appear anywhere within the 70% of the screen area.
-  - Use your mouse to click on the mole to score points.
-  - The top 30% of the screen contains:
-    - **Back Button** (left side) to return to the main page.
-    - **Score** (center) to keep track of your points.
-    - **Lives** (right side) to show how many lives you have left.
-
 ## Snapshots
 
 ![Main Page](src\assets\readmePlayPage.png)
@@ -76,23 +61,6 @@ The game should now be running on `http://localhost:3000`.
 - **React Router**: For routing.
 - **Tailwind CSS**: For styling.
 - **React Icons**: For icons.
-- **Testing Library**: For testing the application.
-
-## Contributing
-
-We welcome contributions to improve the game! To contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
----
 
 Enjoy the game and happy whacking! If you encounter any issues or have suggestions, feel free to open an issue or contact us.
 
