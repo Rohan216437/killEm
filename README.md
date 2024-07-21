@@ -47,11 +47,11 @@ The game should now be running on `http://localhost:3000`.
 
 ## Snapshots
 
-![Main Page](src\assets\readmePlayPage.png)
+![Main Page](src/assets/readmePlayPage.png)
 
 *Main Page with Play button*
 
-![Game Page](src\assets\readmeGroundPage.png)
+![Game Page](src/assets/readmeGroundPage.png)
 *Game Page with interactive mole, score, and lives*
 
 ## Technologies Used
