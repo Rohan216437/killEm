@@ -70,7 +70,7 @@ const PlayGround = () => {
                     <h2  className='bubble-font'>Game Over</h2>
                 ) : (
                     <button style={buttonStyle} className="absolute w-20 h-20 bg-green-600" onClick={incrementCount}>
-                        Increment
+                        Mole.jpg
                     </button>
                 )}
             </div>
