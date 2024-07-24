@@ -52,7 +52,17 @@ const PlayGround = () => {
 
     return (
         <div className='p-8 flex-col h-screen w-screen bg-play-ground bg-zoomed bg-top-adjusted'>
-           
+            <div className='flex justify-between items-start h-1/4'>
+                <div className='w-20 h-1/4'>
+                <button className='text-4xl p-2' onClick={handleBackClick}><IoMdArrowRoundBack /></button>
+                </div>
+                <h2 className='bubble-font  w-20 flex justify-center items-center'>{count}</h2>
+                <div className='flex'>
+                    {Array.from({ length: chances }).map((_, index) => (
+                        <img key={index} src={heartImage} alt="gameHeart" className='w-10 h-10 ' />
+                    ))}
+                </div>
+            </div>
 
             <div className='flex justify-center items-center h-3/4 relative '>
                   {/* <img src={PlayCoverNoBG} alt="Cover PNG here" className="w-full h-auto" style={{ backgroundColor: 'transparent' }}/> */}
