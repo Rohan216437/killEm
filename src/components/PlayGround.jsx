@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { IoMdArrowRoundBack } from "react-icons/io";
-import heartImage from '../assets/heartImage.png'
-
+import heartImage from '../assets/heartImage.png';
+import MolePop from './MolePop';
 
 const PlayGround = () => {
     const [count, setCount] = useState(0);
@@ -69,8 +69,8 @@ const PlayGround = () => {
                 {gameOver ? (
                     <h2  className='bubble-font'>Game Over</h2>
                 ) : (
-                    <button style={buttonStyle} className="absolute w-20 h-20 bg-green-600" onClick={incrementCount}>
-                        Mole.jpg
+                    <button style={buttonStyle} className="absolute" onClick={incrementCount}> {/* w-20 & h-20 removed , as it was causing 2 button sized geetting rendered */}
+                        <MolePop key={buttonPosition.top + '-' + buttonPosition.left} />
                     </button>
                 )}
             </div>
