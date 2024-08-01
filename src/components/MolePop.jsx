@@ -11,7 +11,9 @@ const MolePop = () => {
 
   return (
     <div className="mole-container">
-      
+      <div className={`mole ${isPopped ? 'animate-pop-up' : ''}`}>
+        <img src={Mole} alt="mole" className="mole-img" />
+      </div>
       <div className="dirt"></div>
     </div>
   );
