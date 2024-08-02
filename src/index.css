@@ -33,6 +33,17 @@ code {
   @apply bg-play-page-bg bg-cover bg-center;
 }
 
+.bg-playground-page {
+  @apply bg-play-ground bg-zoomed bg-top-adjusted;
+}
+
+@media (max-width: 640px) {
+  .bg-playground-page {
+    background-size: 400%;
+    background-position: center -250px;
+  }
+}
+
 @keyframes pop-up {
   0% {
     bottom: -100px; 

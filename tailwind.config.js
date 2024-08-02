@@ -8,7 +8,7 @@ module.exports = {
         'play-ground': "url('./assets/playPageBG.jpg')",
       },
       backgroundSize: {
-        'zoomed': '110%', 
+        'zoomed': '110%',
       },
       backgroundPosition: {
         'top-adjusted': 'center top 100%',
