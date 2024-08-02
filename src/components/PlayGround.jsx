@@ -51,7 +51,7 @@ const PlayGround = () => {
     };
 
     return (
-        <div className='p-8 flex-col h-screen w-screen bg-play-ground bg-zoomed bg-top-adjusted'>
+        <div className='p-8 flex-col h-screen w-screen bg-playground-page'>
             <div className='flex justify-between items-start h-1/4'>
                 <div className='w-20 h-1/4'>
                 <button className='text-4xl p-2' onClick={handleBackClick}><IoMdArrowRoundBack /></button>
