@@ -38,12 +38,7 @@ const PlayGround = () => {
         return () => clearTimeout(timeoutId);
     }, [buttonPosition, count, chances]);
 
-    useEffect(() => {
-        if (chances === 0) {
-            setGameOver(true);
-            clearTimeout(timerId);
-        }
-    }, [chances, timerId]);
+    
 
     const buttonStyle = {
         top: `${buttonPosition.top}%`,
